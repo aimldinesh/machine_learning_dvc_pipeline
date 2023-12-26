@@ -5,5 +5,4 @@
 + Training
 + Evaluation
 ...
-### DVC pipelines make it easy to execute stages of an ML pipeline. If we make a change in one stage (such as feature extraction), it runs only the feature extraction stage and skips all the other stages.
-  
+- DVC pipelines simplify the execution of stages in an ML pipeline. If a change is made in one stage, such as feature extraction, the pipeline runs only the affected stage and skips all others, ultimately saving time in the overall execution
